@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>h1,h2, h3, p {
+        text-align: center;
+    }
+    img {
+        max-height: 40vh;
+        max-width: 50vw;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    body {
+        background-image: linear-gradient(white, cyan, rgba(0, 0, 255, 0.338));
+        height: 100%;
+    }
+    
+    .flex-container1 {
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        border-radius: 25px;
+        height: 10vh;
+        justify-content: center;
+        margin-left: 10vw;
+        margin-right: 10vw;
+      }
+      
+    .flex-container2 {
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        border-radius: 25px;
+        min-height: 100vh;
+        justify-content: center;
+        margin-left: 10vw;
+        margin-right: 10vw;
+      }
+    
+    .flex-container > div {
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+        border-radius: 25%; 
+      }
+      </style>
+
+    <title>Kevin nettside</title>
+</head>
+<body>
+    
+
+
+<div class="flex-container1">
+        <div><h1>Dette er Kevin sin info nettside.</h1></div>
+      </div>
+
+<br>
+
+<div class="flex-container2">
+        <div>
+            <h1>Unifi nettverk</h1>
+            <h3>VLAN Navn</h3>
+            <p>KevinVLAN</p>
+            <h3>VLAN ID</h3>
+            <p>506</p>
+            <h3>Nettverk</h3>
+            <p>172.17.7.0/24</p>
+            <h3>Port</h3>
+            <p>Svitsj 2 Port 7</p>
+        <br>
+        <h2>Topologi</h2>
+        <img src="UnifiTopologi.JPG" alt="">
+        <br>
+        <h2>Veggplate</h2>
+        <p>Switch: US 8 60W</p>
+        <p>Ap: UAP AC Pro</p>
+        <p>Ruter: USG 3P</p>
+        <img src="Veggplate.JPG" alt="">
+        <br>
+        <h2>Ethernett</h2>
+        <p>Port 52</p>
+        <img src="Underbordet.JPG" alt="">
+        </div>
+
+      </div>
+    
+
+</body>
+</html>
